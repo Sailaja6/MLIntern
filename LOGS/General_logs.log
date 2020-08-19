@@ -1,0 +1,181 @@
+INFO : __main__ : 2020-08-15 21:39:09,740 :  **********************START OF DATA VALIDATION-Training Data****************************
+INFO : __main__ : 2020-08-15 21:39:09,742 :  Obtained values from .json file
+INFO : __main__ : 2020-08-15 21:39:09,860 :  Training directory Created 
+INFO : __main__ : 2020-08-15 21:39:26,746 :  Columns length Validation of Training batches Completed 
+INFO : __main__ : 2020-08-15 21:39:38,941 :  Missing Value validation of Training batches Completed 
+INFO : __main__ : 2020-08-15 21:39:38,942 :  ***************DATA VALIDATIONS COMPLETED SUCCESSFULLY*************************
+INFO : __main__ : 2020-08-15 21:39:38,942 :  ****************START OF DB OPERATIONS********************
+INFO : __main__ : 2020-08-15 21:39:38,943 :  Instace Created
+INFO : __main__ : 2020-08-15 21:39:39,084 :  Connection to DB establised
+INFO : __main__ : 2020-08-15 21:40:45,309 :  Table Created
+INFO : __main__ : 2020-08-15 21:41:48,843 :  Data inserted to DB
+INFO : __main__ : 2020-08-15 21:42:09,270 :  .csv file exported to Combined_training_data/Input_file.csv
+INFO : __main__ : 2020-08-15 21:42:09,274 :  Connection Closed
+INFO : __main__ : 2020-08-15 21:42:09,275 :  ************DB OPERATIONS COMPLETED SUCCESSFULLY*********************
+INFO : __main__ : 2020-08-15 21:42:09,275 :  ********************************START OF DATA PREPROCESSING - TRAIN DATA********************
+INFO : __main__ : 2020-08-15 21:42:10,634 :  Instance Created
+INFO : __main__ : 2020-08-15 21:42:10,670 :  Unwanted columns removed
+INFO : __main__ : 2020-08-15 21:42:10,771 :  Derived feature obtained by combining comments
+INFO : __main__ : 2020-08-15 21:42:10,947 :  Labelled comments_received feature
+INFO : __main__ : 2020-08-15 21:42:10,974 :  Labels and features seperated
+INFO : __main__ : 2020-08-15 21:42:11,126 :  Random Under sampling performed
+INFO : __main__ : 2020-08-15 21:42:11,252 :  Encoded pg_category column
+INFO : __main__ : 2020-08-15 21:42:11,252 :  Data preprocessing of train data completed shapes (18668, 31) (18668, 1)
+INFO : __main__ : 2020-08-15 21:42:11,253 :  ********************************END OF DATA PREPROCESSING - TRAIN DATA********************
+INFO : __main__ : 2020-08-15 21:42:11,253 :  ***********START OF MODELLING******************
+INFO : __main__ : 2020-08-15 21:42:47,567 :  Model made successfully MODEL RandomizedSearchCV(cv=10, estimator=RandomForestClassifier(verbose=False),
+                   param_distributions={'criterion': ['gini', 'entropy'],
+                                        'max_depth': range(10, 31, 2),
+                                        'min_samples_split': range(10, 31, 2),
+                                        'n_estimators': range(10, 150, 10)})
+INFO : __main__ : 2020-08-15 21:42:48,054 :  pickle file 'model.pkl' generated at current working directory
+INFO : __main__ : 2020-08-15 21:42:48,054 :  ***********END OF MODELLING******************
+INFO : __main__ : 2020-08-15 21:44:46,428 :  **********************START OF DATA VALIDATION-Training Data****************************
+INFO : __main__ : 2020-08-15 21:44:46,430 :  Obtained values from .json file
+INFO : __main__ : 2020-08-15 21:44:46,565 :  Training directory Created 
+INFO : __main__ : 2020-08-15 21:45:03,165 :  Columns length Validation of Training batches Completed 
+INFO : __main__ : 2020-08-15 21:45:18,313 :  Missing Value validation of Training batches Completed 
+INFO : __main__ : 2020-08-15 21:45:18,313 :  ***************DATA VALIDATIONS COMPLETED SUCCESSFULLY*************************
+INFO : __main__ : 2020-08-15 21:45:18,314 :  ****************START OF DB OPERATIONS********************
+INFO : __main__ : 2020-08-15 21:45:18,315 :  Instace Created
+INFO : __main__ : 2020-08-15 21:45:18,541 :  Connection to DB establised
+INFO : __main__ : 2020-08-15 21:46:15,580 :  Table Created
+INFO : __main__ : 2020-08-15 21:47:14,671 :  Data inserted to DB
+INFO : __main__ : 2020-08-15 21:47:36,425 :  .csv file exported to Combined_training_data/Input_file.csv
+INFO : __main__ : 2020-08-15 21:47:36,429 :  Connection Closed
+INFO : __main__ : 2020-08-15 21:47:36,429 :  ************DB OPERATIONS COMPLETED SUCCESSFULLY*********************
+INFO : __main__ : 2020-08-15 21:47:36,430 :  ********************************START OF DATA PREPROCESSING - TRAIN DATA********************
+INFO : __main__ : 2020-08-15 21:47:37,867 :  Instance Created
+INFO : __main__ : 2020-08-15 21:47:37,894 :  Unwanted columns removed
+INFO : __main__ : 2020-08-15 21:47:37,982 :  Derived feature obtained by combining comments
+INFO : __main__ : 2020-08-15 21:47:38,151 :  Labelled comments_received feature
+INFO : __main__ : 2020-08-15 21:47:38,169 :  Labels and features seperated
+INFO : __main__ : 2020-08-15 21:47:38,274 :  Random Under sampling performed
+INFO : __main__ : 2020-08-15 21:47:38,368 :  Encoded pg_category column
+INFO : __main__ : 2020-08-15 21:47:38,368 :  Data preprocessing of train data completed shapes (18668, 31) (18668, 1)
+INFO : __main__ : 2020-08-15 21:47:38,368 :  ********************************END OF DATA PREPROCESSING - TRAIN DATA********************
+INFO : __main__ : 2020-08-15 21:47:38,368 :  ***********START OF MODELLING******************
+INFO : __main__ : 2020-08-15 21:48:12,543 :  Model made successfully MODEL RandomizedSearchCV(cv=10,
+                   estimator=XGBClassifier(objective='multi:softprob',
+                                           verbose=False),
+                   param_distributions={'colsample_bytree': [0.6, 0.8, 1.0],
+                                        'gamma': [0.5, 1, 1.5, 2, 5],
+                                        'learning_rate ': [0.0001, 0.001, 0.01,
+                                                           0.05],
+                                        'max_depth': [3, 4, 5],
+                                        'min_child_weight': range(1, 10),
+                                        'subsample': [0.6, 0.8, 1.0]})
+INFO : __main__ : 2020-08-15 21:48:12,563 :  pickle file 'model.pkl' generated at current working directory
+INFO : __main__ : 2020-08-15 21:48:12,564 :  ***********END OF MODELLING******************
+INFO : __main__ : 2020-08-15 21:49:57,231 :  **********************START OF DATA VALIDATION-Training Data****************************
+INFO : __main__ : 2020-08-15 21:49:57,233 :  Obtained values from .json file
+INFO : __main__ : 2020-08-15 21:49:57,346 :  Training directory Created 
+INFO : __main__ : 2020-08-15 21:50:13,496 :  Columns length Validation of Training batches Completed 
+INFO : __main__ : 2020-08-15 21:50:25,753 :  Missing Value validation of Training batches Completed 
+INFO : __main__ : 2020-08-15 21:50:25,754 :  ***************DATA VALIDATIONS COMPLETED SUCCESSFULLY*************************
+INFO : __main__ : 2020-08-15 21:50:25,754 :  ****************START OF DB OPERATIONS********************
+INFO : __main__ : 2020-08-15 21:50:25,754 :  Instace Created
+INFO : __main__ : 2020-08-15 21:50:25,852 :  Connection to DB establised
+INFO : __main__ : 2020-08-15 21:51:25,053 :  Table Created
+INFO : __main__ : 2020-08-15 21:52:14,899 :  Data inserted to DB
+INFO : __main__ : 2020-08-15 21:52:35,843 :  .csv file exported to Combined_training_data/Input_file.csv
+INFO : __main__ : 2020-08-15 21:52:35,845 :  Connection Closed
+INFO : __main__ : 2020-08-15 21:52:35,845 :  ************DB OPERATIONS COMPLETED SUCCESSFULLY*********************
+INFO : __main__ : 2020-08-15 21:52:35,845 :  ********************************START OF DATA PREPROCESSING - TRAIN DATA********************
+INFO : __main__ : 2020-08-15 21:52:36,527 :  Instance Created
+INFO : __main__ : 2020-08-15 21:52:36,565 :  Unwanted columns removed
+INFO : __main__ : 2020-08-15 21:52:36,676 :  Derived feature obtained by combining comments
+INFO : __main__ : 2020-08-15 21:52:36,909 :  Labelled comments_received feature
+INFO : __main__ : 2020-08-15 21:52:36,939 :  Labels and features seperated
+INFO : __main__ : 2020-08-15 21:52:37,160 :  Random Under sampling performed
+INFO : __main__ : 2020-08-15 21:52:37,326 :  Encoded pg_category column
+INFO : __main__ : 2020-08-15 21:52:37,326 :  Data preprocessing of train data completed shapes (18668, 31) (18668, 1)
+INFO : __main__ : 2020-08-15 21:52:37,326 :  ********************************END OF DATA PREPROCESSING - TRAIN DATA********************
+INFO : __main__ : 2020-08-15 21:52:37,327 :  ***********START OF MODELLING******************
+INFO : __main__ : 2020-08-15 21:53:20,857 :  Model made successfully MODEL RandomizedSearchCV(cv=10,
+                   estimator=XGBClassifier(objective='multi:softprob',
+                                           verbose=False),
+                   param_distributions={'colsample_bytree': [0.6, 0.8, 1.0],
+                                        'gamma': [0.5, 1, 1.5, 2, 5],
+                                        'learning_rate ': [0.0001, 0.001, 0.01,
+                                                           0.05],
+                                        'max_depth': [3, 4, 5],
+                                        'min_child_weight': range(1, 10),
+                                        'subsample': [0.6, 0.8, 1.0]})
+INFO : __main__ : 2020-08-15 21:53:20,875 :  pickle file 'model.pkl' generated at current working directory
+INFO : __main__ : 2020-08-15 21:53:20,876 :  ***********END OF MODELLING******************
+INFO : __main__ : 2020-08-15 21:57:41,181 :  **********START OF PREDICTION*************
+INFO : __main__ : 2020-08-15 21:57:41,182 :  Start of data vaidation- prediction
+INFO : __main__ : 2020-08-15 21:57:41,187 :  Obtained data from .json file
+INFO : __main__ : 2020-08-15 21:57:41,197 :  Temporary Directory Created
+INFO : __main__ : 2020-08-15 21:57:41,297 :  col. length validated
+INFO : __main__ : 2020-08-15 21:57:41,337 :  Missing value Validated
+INFO : __main__ : 2020-08-15 21:57:41,337 :  *************START OF DB OPERATIONS*************
+INFO : __main__ : 2020-08-15 21:57:41,526 :  Created connection object
+INFO : __main__ : 2020-08-15 21:58:47,621 :  Table Created
+INFO : __main__ : 2020-08-15 21:58:48,426 :  Values inserted to table
+INFO : __main__ : 2020-08-15 21:58:48,539 :  Exported the csv file
+INFO : __main__ : 2020-08-15 21:58:48,544 :  Closed the connection
+INFO : __main__ : 2020-08-15 21:58:48,556 :  **********START OF DATA PREPROCESSING-PREDICTION************
+INFO : __main__ : 2020-08-15 21:58:48,602 :  Unwanted columns removed
+INFO : __main__ : 2020-08-15 21:58:48,671 :  Obtained Derived features
+INFO : __main__ : 2020-08-15 21:58:48,684 :  labelled_comments_received
+INFO : __main__ : 2020-08-15 21:58:48,701 :  Seperated features and labels
+INFO : __main__ : 2020-08-15 21:58:48,755 :  Encoded pg_category
+INFO : __main__ : 2020-08-15 22:00:39,069 :  Result obtained in predict.html
+INFO : __main__ : 2020-08-15 22:06:23,070 :  **********START OF PREDICTION*************
+INFO : __main__ : 2020-08-15 22:06:23,071 :  Start of data vaidation- prediction
+INFO : __main__ : 2020-08-15 22:06:23,114 :  Obtained data from .json file
+INFO : __main__ : 2020-08-15 22:06:23,185 :  Temporary Directory Created
+INFO : __main__ : 2020-08-15 22:06:23,263 :  col. length validated
+INFO : __main__ : 2020-08-15 22:06:23,344 :  Missing value Validated
+INFO : __main__ : 2020-08-15 22:06:23,344 :  *************START OF DB OPERATIONS*************
+INFO : __main__ : 2020-08-15 22:06:23,794 :  Created connection object
+INFO : __main__ : 2020-08-15 22:07:13,143 :  Table Created
+INFO : __main__ : 2020-08-15 22:07:13,647 :  Values inserted to table
+INFO : __main__ : 2020-08-15 22:07:13,766 :  Exported the csv file
+INFO : __main__ : 2020-08-15 22:07:13,774 :  Closed the connection
+INFO : __main__ : 2020-08-15 22:07:13,833 :  **********START OF DATA PREPROCESSING-PREDICTION************
+INFO : __main__ : 2020-08-15 22:07:13,899 :  Unwanted columns removed
+INFO : __main__ : 2020-08-15 22:07:13,936 :  Obtained Derived features
+INFO : __main__ : 2020-08-15 22:07:13,948 :  labelled_comments_received
+INFO : __main__ : 2020-08-15 22:07:13,967 :  Seperated features and labels
+INFO : __main__ : 2020-08-15 22:07:14,018 :  Encoded pg_category
+INFO : __main__ : 2020-08-15 22:07:40,345 :  Result obtained in predict.html
+INFO : __main__ : 2020-08-15 22:14:22,850 :  **********START OF PREDICTION*************
+INFO : __main__ : 2020-08-15 22:14:22,851 :  Start of data vaidation- prediction
+INFO : __main__ : 2020-08-15 22:14:22,865 :  Obtained data from .json file
+INFO : __main__ : 2020-08-15 22:14:22,876 :  Temporary Directory Created
+INFO : __main__ : 2020-08-15 22:14:22,936 :  col. length validated
+INFO : __main__ : 2020-08-15 22:14:22,976 :  Missing value Validated
+INFO : __main__ : 2020-08-15 22:14:22,977 :  *************START OF DB OPERATIONS*************
+INFO : __main__ : 2020-08-15 22:14:23,201 :  Created connection object
+INFO : __main__ : 2020-08-15 22:15:32,735 :  Table Created
+INFO : __main__ : 2020-08-15 22:15:33,648 :  Values inserted to table
+INFO : __main__ : 2020-08-15 22:15:33,975 :  Exported the csv file
+INFO : __main__ : 2020-08-15 22:15:33,980 :  Closed the connection
+INFO : __main__ : 2020-08-15 22:15:34,204 :  **********START OF DATA PREPROCESSING-PREDICTION************
+INFO : __main__ : 2020-08-15 22:15:34,301 :  Unwanted columns removed
+INFO : __main__ : 2020-08-15 22:15:34,351 :  Obtained Derived features
+INFO : __main__ : 2020-08-15 22:15:34,364 :  labelled_comments_received
+INFO : __main__ : 2020-08-15 22:15:34,386 :  Seperated features and labels
+INFO : __main__ : 2020-08-15 22:15:34,449 :  Encoded pg_category
+INFO : __main__ : 2020-08-15 22:16:31,070 :  **********START OF PREDICTION*************
+INFO : __main__ : 2020-08-15 22:16:31,071 :  Start of data vaidation- prediction
+INFO : __main__ : 2020-08-15 22:16:31,072 :  Obtained data from .json file
+INFO : __main__ : 2020-08-15 22:16:31,074 :  Temporary Directory Created
+INFO : __main__ : 2020-08-15 22:16:31,110 :  col. length validated
+INFO : __main__ : 2020-08-15 22:16:31,127 :  Missing value Validated
+INFO : __main__ : 2020-08-15 22:16:31,127 :  *************START OF DB OPERATIONS*************
+INFO : __main__ : 2020-08-15 22:16:31,222 :  Created connection object
+INFO : __main__ : 2020-08-15 22:18:01,151 :  Table Created
+INFO : __main__ : 2020-08-15 22:18:01,575 :  Values inserted to table
+INFO : __main__ : 2020-08-15 22:18:01,655 :  Exported the csv file
+INFO : __main__ : 2020-08-15 22:18:01,658 :  Closed the connection
+INFO : __main__ : 2020-08-15 22:18:01,673 :  **********START OF DATA PREPROCESSING-PREDICTION************
+INFO : __main__ : 2020-08-15 22:18:01,723 :  Unwanted columns removed
+INFO : __main__ : 2020-08-15 22:18:01,756 :  Obtained Derived features
+INFO : __main__ : 2020-08-15 22:18:01,770 :  labelled_comments_received
+INFO : __main__ : 2020-08-15 22:18:01,779 :  Seperated features and labels
+INFO : __main__ : 2020-08-15 22:18:01,819 :  Encoded pg_category
+INFO : __main__ : 2020-08-15 22:18:06,568 :  Result obtained in predict.html

@@ -1,0 +1,45 @@
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:39:09,739 : Created the Train Validation object 
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:39:09,742 : Obtained info from .json file
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:39:09,851 : Directory Already exists!!! Removed the diretory
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:39:09,859 : New directory created at .\Training_batches\Good_data
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:39:12,357 :  Features_Variant_1.csv -Col. length validation completed->>Moved to Good_data Folder
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:39:14,949 :  Features_Variant_2.csv -Col. length validation completed->>Moved to Good_data Folder
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:39:19,154 :  Features_Variant_3.csv -Col. length validation completed->>Moved to Good_data Folder
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:39:23,086 :  Features_Variant_4.csv -Col. length validation completed->>Moved to Good_data Folder
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:39:26,730 :  Features_Variant_5.csv -Col. length validation completed->>Moved to Good_data Folder
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:39:27,347 : No null values in Features_Variant_1.csv, Data Retained
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:39:29,400 : No null values in Features_Variant_2.csv, Data Retained
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:39:32,207 : No null values in Features_Variant_3.csv, Data Retained
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:39:35,132 : No null values in Features_Variant_4.csv, Data Retained
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:39:38,915 : No null values in Features_Variant_5.csv, Data Retained
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:39:38,916 : COMPLETED VALIDATIONS
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:44:46,428 : Created the Train Validation object 
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:44:46,430 : Obtained info from .json file
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:44:46,556 : Directory Already exists!!! Removed the diretory
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:44:46,565 : New directory created at .\Training_batches\Good_data
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:44:47,920 :  Features_Variant_1.csv -Col. length validation completed->>Moved to Good_data Folder
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:44:50,693 :  Features_Variant_2.csv -Col. length validation completed->>Moved to Good_data Folder
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:44:54,491 :  Features_Variant_3.csv -Col. length validation completed->>Moved to Good_data Folder
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:44:59,243 :  Features_Variant_4.csv -Col. length validation completed->>Moved to Good_data Folder
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:45:03,141 :  Features_Variant_5.csv -Col. length validation completed->>Moved to Good_data Folder
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:45:03,732 : No null values in Features_Variant_1.csv, Data Retained
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:45:05,972 : No null values in Features_Variant_2.csv, Data Retained
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:45:09,150 : No null values in Features_Variant_3.csv, Data Retained
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:45:12,786 : No null values in Features_Variant_4.csv, Data Retained
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:45:18,274 : No null values in Features_Variant_5.csv, Data Retained
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:45:18,274 : COMPLETED VALIDATIONS
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:49:57,230 : Created the Train Validation object 
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:49:57,233 : Obtained info from .json file
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:49:57,340 : Directory Already exists!!! Removed the diretory
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:49:57,345 : New directory created at .\Training_batches\Good_data
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:49:58,214 :  Features_Variant_1.csv -Col. length validation completed->>Moved to Good_data Folder
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:50:00,550 :  Features_Variant_2.csv -Col. length validation completed->>Moved to Good_data Folder
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:50:04,496 :  Features_Variant_3.csv -Col. length validation completed->>Moved to Good_data Folder
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:50:08,979 :  Features_Variant_4.csv -Col. length validation completed->>Moved to Good_data Folder
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:50:13,469 :  Features_Variant_5.csv -Col. length validation completed->>Moved to Good_data Folder
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:50:14,299 : No null values in Features_Variant_1.csv, Data Retained
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:50:15,810 : No null values in Features_Variant_2.csv, Data Retained
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:50:19,153 : No null values in Features_Variant_3.csv, Data Retained
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:50:22,590 : No null values in Features_Variant_4.csv, Data Retained
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:50:25,734 : No null values in Features_Variant_5.csv, Data Retained
+INFO : DATA_VALIDATION.Validation : 2020-08-15 21:50:25,734 : COMPLETED VALIDATIONS

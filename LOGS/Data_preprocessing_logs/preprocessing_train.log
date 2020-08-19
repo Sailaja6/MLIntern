@@ -1,0 +1,66 @@
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:42:10,632 :  Instance Created Successfully shape of csv file (40949, 54)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:42:10,633 :  Start of data preprocessing - TRAINING 
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:42:10,669 :  Unwanted columns removed successfully, shape (40949, 24)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:42:10,770 :  Comments combined to form new derived feature
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:42:10,771 :  Dropped c1, c2, c3 columns , shape: (40949, 22)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:42:10,946 :  Labelled comments_received column
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:42:10,973 :  features and labels seperated shapes (40949, 21) and (40949, 1)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:42:11,123 :  Samples does not have required counts, hence samplling strategy set to 'auto' shapes : (18668, 21) , (18668, 1)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:42:11,251 :  Encoded pg_category
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:42:11,252 :  Frequent labels encoded  [9.0, 18.0, 24.0, 36.0, 14.0, 8.0, 16.0, 4.0, 2.0, 32.0, 1.0, 33.0] and shape (18668, 31) (18668, 1)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:47:37,866 :  Instance Created Successfully shape of csv file (40949, 54)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:47:37,866 :  Start of data preprocessing - TRAINING 
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:47:37,894 :  Unwanted columns removed successfully, shape (40949, 24)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:47:37,981 :  Comments combined to form new derived feature
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:47:37,981 :  Dropped c1, c2, c3 columns , shape: (40949, 22)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:47:38,150 :  Labelled comments_received column
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:47:38,169 :  features and labels seperated shapes (40949, 21) and (40949, 1)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:47:38,271 :  Samples does not have required counts, hence samplling strategy set to 'auto' shapes : (18668, 21) , (18668, 1)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:47:38,367 :  Encoded pg_category
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:47:38,368 :  Frequent labels encoded  [9.0, 18.0, 24.0, 36.0, 14.0, 8.0, 16.0, 4.0, 2.0, 32.0, 1.0, 6.0] and shape (18668, 31) (18668, 1)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:52:36,525 :  Instance Created Successfully shape of csv file (40949, 54)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:52:36,526 :  Start of data preprocessing - TRAINING 
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:52:36,565 :  Unwanted columns removed successfully, shape (40949, 24)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:52:36,675 :  Comments combined to form new derived feature
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:52:36,676 :  Dropped c1, c2, c3 columns , shape: (40949, 22)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:52:36,908 :  Labelled comments_received column
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:52:36,939 :  features and labels seperated shapes (40949, 21) and (40949, 1)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:52:37,155 :  Samples does not have required counts, hence samplling strategy set to 'auto' shapes : (18668, 21) , (18668, 1)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:52:37,325 :  Encoded pg_category
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:52:37,325 :  Frequent labels encoded  [9.0, 18.0, 24.0, 36.0, 14.0, 8.0, 16.0, 4.0, 2.0, 32.0, 1.0, 27.0] and shape (18668, 31) (18668, 1)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:58:48,594 :  Instance Created Successfully shape of csv file (100, 54)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:58:48,595 :  Start of data preprocessing - PREDICTION 
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:58:48,602 :  Unwanted columns removed successfully, shape (100, 24)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:58:48,669 :  Comments combined to form new derived feature
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:58:48,670 :  Dropped c1, c2, c3 columns , shape: (100, 22)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:58:48,683 :  Labelled comments_received column
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:58:48,700 :  features and labels seperated shapes (100, 21) and (100, 1)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:58:48,754 :  Encoded pg_category
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 21:58:48,755 :  Frequent labels encoded  [9.0, 20.0, 4.0, 16.0, 26.0, 5.0, 98.0, 34.0, 33.0, 38.0, 8.0, 2.0] and shape (100, 31) (100, 1)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 22:07:13,890 :  Instance Created Successfully shape of csv file (100, 54)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 22:07:13,891 :  Start of data preprocessing - PREDICTION 
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 22:07:13,898 :  Unwanted columns removed successfully, shape (100, 24)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 22:07:13,935 :  Comments combined to form new derived feature
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 22:07:13,936 :  Dropped c1, c2, c3 columns , shape: (100, 22)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 22:07:13,948 :  Labelled comments_received column
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 22:07:13,966 :  features and labels seperated shapes (100, 21) and (100, 1)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 22:07:14,016 :  Encoded pg_category
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 22:07:14,017 :  Frequent labels encoded  [9.0, 20.0, 4.0, 42.0, 26.0, 18.0, 34.0, 24.0, 12.0, 45.0, 44.0, 1.0] and shape (100, 31) (100, 1)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 22:15:34,279 :  Instance Created Successfully shape of csv file (100, 54)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 22:15:34,292 :  Start of data preprocessing - PREDICTION 
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 22:15:34,300 :  Unwanted columns removed successfully, shape (100, 24)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 22:15:34,350 :  Comments combined to form new derived feature
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 22:15:34,351 :  Dropped c1, c2, c3 columns , shape: (100, 22)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 22:15:34,363 :  Labelled comments_received column
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 22:15:34,385 :  features and labels seperated shapes (100, 21) and (100, 1)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 22:15:34,447 :  Encoded pg_category
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 22:15:34,448 :  Frequent labels encoded  [9.0, 20.0, 26.0, 4.0, 1.0, 18.0, 5.0, 44.0, 42.0, 46.0, 32.0, 16.0] and shape (100, 31) (100, 1)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 22:18:01,717 :  Instance Created Successfully shape of csv file (100, 54)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 22:18:01,717 :  Start of data preprocessing - PREDICTION 
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 22:18:01,722 :  Unwanted columns removed successfully, shape (100, 24)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 22:18:01,755 :  Comments combined to form new derived feature
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 22:18:01,756 :  Dropped c1, c2, c3 columns , shape: (100, 22)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 22:18:01,769 :  Labelled comments_received column
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 22:18:01,779 :  features and labels seperated shapes (100, 21) and (100, 1)
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 22:18:01,819 :  Encoded pg_category
+INFO : DATA_PREPROCESSING.Train_preprocessing : 2020-08-15 22:18:01,819 :  Frequent labels encoded  [9.0, 20.0, 4.0, 16.0, 26.0, 5.0, 98.0, 34.0, 33.0, 38.0, 8.0, 43.0] and shape (100, 31) (100, 1)
