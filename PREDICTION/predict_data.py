@@ -17,10 +17,10 @@ class Predict:
     """
     def __init__(self, X):
         self.X = X
-        with open('tuned_model.pkl', 'rb') as f:  # for using tuned model
+        #with open('tuned_model.pkl', 'rb') as f:  # for using tuned model
+            #self.model = pickle.load(f)
+        with open('untuned_model.pkl', 'rb') as f:          #for using untuned model
             self.model = pickle.load(f)
-        #with open('untuned_model.pkl', 'rb') as f:          #for using untuned model
-        #    self.model = pickle.load(f)
         self.result_path = 'Prediction_Results/prediction.csv'
         logger.info("Instance initiated")
         logger.info("Loaded the existing model.pkl file")
